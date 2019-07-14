@@ -1,0 +1,28 @@
+.SideDrawer {
+    position:fixed;
+    width:280px;
+    max-width: 70%;
+    height:100%;
+    left:0;
+    top:0;
+    z-index:200;
+    background-color:white;
+    padding:32px 16px;
+    box-sizing:border-box;
+    transition: transform 0.3s ease-out; /* animation : specifies a transition effect with a slow end*/
+
+}
+
+@media (min-width:500px){
+    .SideDrawer {
+        display:none; /* if min-width >500 px sideDrawer is not display*/
+    }
+}
+
+.Open {
+    transform:translateX(0); /* animation  display*/
+}
+
+.Close {
+    transform:translateX(-100%); /* animation  hidden*/
+}

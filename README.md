@@ -1,6 +1,6 @@
 ## Build Burger
 
-This web application is developed using React.js and CSS
+This web application is developed using React.js and CSS.
 
 
 ![image11](https://user-images.githubusercontent.com/46047020/61186073-2e47b280-a661-11e9-912f-2a2715a34ce7.png)
